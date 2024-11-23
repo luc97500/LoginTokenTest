@@ -18,11 +18,6 @@ app.use('/auth',AuthRouter)
 
 app.use('/products',Products)
 
-module.exports = (req, res) => {
-    // This runs the Express app within the Vercel serverless function
-    app(req, res);
-  };
-
 
 app.listen(PORT,()=>{
     console.log("Server is Running on : " + PORT)
