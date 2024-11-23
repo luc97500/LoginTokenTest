@@ -29,7 +29,7 @@ function ResetPassword() {
   const apiCall = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:8080/auth";
+      const url = "https://login-token-test-api.vercel.app/auth";
 
       if (formField.email === "") {
         return toast.error("Please Enter Email");
