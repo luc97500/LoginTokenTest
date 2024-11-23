@@ -1,4 +1,4 @@
-tailwind.config = {
+module.exports = {
   darkMode: 'class',
   content: [
     './src/**/*.{js,jsx,ts,tsx}',  // This will include all JavaScript, JSX, TypeScript, and TSX files in the src folder
