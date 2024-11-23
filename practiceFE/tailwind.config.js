@@ -1,8 +1,8 @@
 tailwind.config = {
   darkMode: 'class',
   content: [
-    './src', // Adjust based on your project structure
-    './public/index.html'
+    './src/**/*.{js,jsx,ts,tsx}',  // This will include all JavaScript, JSX, TypeScript, and TSX files in the src folder
+    './public/index.html',
   ],
   theme: {
     extend: {
