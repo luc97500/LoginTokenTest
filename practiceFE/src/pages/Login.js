@@ -31,7 +31,7 @@ function Login() {
         }))
     }
 
-    const url = "http://localhost:8080/auth"
+    const url = "https://login-token-test-api.vercel.app/auth"
 
     const apiCall = async (e) =>{
         e.preventDefault();
