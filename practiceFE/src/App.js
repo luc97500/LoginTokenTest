@@ -4,9 +4,14 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Home from './pages/Home';
 import ResetPassword from './pages/resetPassword';
+import { Celebration } from './pages/Opencelebration';
 
 function App() {
   return (
+    <>
+    <div>
+      <Celebration />
+    </div>
     <div className="App">
       <Routes>
         <Route path = "/" element={<Navigate to={'/login'}/>}/>
@@ -17,6 +22,7 @@ function App() {
         <Route path='*' element={<Navigate to={'/login'}/>}/>
       </Routes>
     </div>
+    </>
   );
 }
 
