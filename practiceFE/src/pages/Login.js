@@ -31,7 +31,7 @@ function Login() {
         }))
     }
 
-    const url = "https://login-token-test-api.vercel.app/auth"
+    const url = "https://logintokentest-be.onrender.com/auth"
 
     const apiCall = async (e) =>{
         e.preventDefault();
